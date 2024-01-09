@@ -1,4 +1,4 @@
-# Body Workout Monitoring with YOLOv8
+# Workout Monitoring with YOLOv8
 
 This repository contains a workflow for monitoring body workout exercises such as pushups and pullups using YOLOv8, an object detection model by Ultralytics. The workflow is designed to detect and track exercises in video footage, enabling real-time analysis of workout routines.
 
