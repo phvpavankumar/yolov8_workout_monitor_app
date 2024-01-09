@@ -22,15 +22,20 @@ This repository contains a workflow for monitoring body workout exercises such a
 
 2. **Clone Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/phvpavankumar/yolov8_workout_monitor_app.git
+   cd yolov8_workout_monitor_app
+   git clone https://github.com/ultralytics/ultralytics.git
+   cd ultralytics
    ```
-
+3. **Install Requirments**
+   ```bash
+   pip install ultralytics
+   ```
 3. **Prepare Videos**: Place workout videos or live video feeds in the designated directory.
 
 4. **Run Workflow**:
    ```bash
-   python workout_monitor.py --video_path path/to/your/video.mp4
+   python workout_monitoring.py
    ```
 
 5. **Monitor Exercise Stats**: The workflow will detect pushups and pullups in the video and provide real-time statistics such as counts and durations.
